@@ -21,10 +21,12 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const ViewComments = (props) => {
+  const {name, body, id, postId, email} = props;
   const classes = useStyles();
   return (
     <div>
-      <h1>View Comments</h1>
+      <h3>{name}</h3>
+      <h4>{body}</h4>
     </div>
   );
 }

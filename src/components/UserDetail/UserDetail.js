@@ -16,7 +16,7 @@ const UserDetail = () => {
   console.log(detail);
   return (
     <div>
-      <ViewComments></ViewComments>
+      <ViewComments detail={detail}></ViewComments>
     </div>
   );
 }
